@@ -1,56 +1,90 @@
 <p align="center">
-	<img alt="Rice Bowl" src="public/images/icon-512.png" width="90">
-	<h2 align="center">Next PWA Template</h2>
+  <h1 align="center">Looperr</h1>
 </p>
 
-<p align="center">Fluffless app template to inspire less</p>
+Looperr is your go-to campus utility app that connects students who need errands done with those willing to help — all within your college ecosystem.
+
+Whether it's picking up a food delivery from the main gate, grabbing essentials from the campus store, or dropping off a parcel at the hostel desk — Looperr makes it fast, reliable, and community-driven.
+
+<h2>⚡️ Why Looperr?</h2>
+🏃‍♂️ Request or run errands — food, parcels, supplies, and more
+
+🎯 Optimised for campus — tailored for student routines and hotspots
+
+💸 Earn money or favours by completing tasks for peers
+
+📱 Mobile-first & offline-ready for real-world reliability
+
+🧩 Built on a minimal, no-fluff foundation to scale fast
 
 <p align="center">
-	<a href="https://next-pwa-template.now.sh">Live demo</a>
+  <a href="https://looperr-frontend.vercel.app/">Live Demo</a>
 </p>
 
-<p align="center">
-	<a href="https://web.dev/measure">
-		<img alt="100% lighthouse scores" src="https://img.shields.io/badge/lighthouse-100%25-845EF7.svg?logo=lighthouse&logoColor=white&style=flat-square" />
-	</a>
-</p>
+---
 
-## Features
+## 🧩 About the Project
 
-- ✨ Fluffless PWA using Next 13
-- 🌗 Lovely night/day themes
-- 🦄 Easily removable [nice-to-haves](#use-only-what-you-need)
-- 📱 Native-like mobile experience
-- 📦 Neatly wrapped like that avocado you got for christmas
+**Looperr** is a high-performance, minimalist Progressive Web App (PWA) built with modern web technologies and a focus on clean design, fast load times, and developer efficiency.
 
-## Getting started
+The frontend is built using **Next.js** and tailored for quick iterations, optimised accessibility, and a native app-like experience. It’s designed to serve as a boilerplate or the foundation for more complex applications, without the bloat.
 
-1. [Use this template](https://github.com/mvllow/next-pwa-template/generate)
-2. Replace `public/images` with your own
-3. Enjoy ✨
+Key focuses include:
 
-## Use only what you need
+- ⚡️ Speed-first, fluffless UX
+- 🧼 Clean and customizable code structure
+- 📱 Mobile-first, PWA-enabled for installable experience
+- 🌑 Seamless dark mode integration
 
-Fluffless doesn't mean "start with nothing". The goal of this template is to be an entry into maintainable apps.
+---
 
-**The essentials**
+## 🚀 Features
 
-- Typescript, made easy with Next.js
-- [tailwindcss](https://github.com/tailwindlabs/tailwindcss) for utility-first styling
-- [next-pwa](https://github.com/shadowwalker/next-pwa) for offline support
+- 🔧 **Next.js 14** with App Router
+- 🌐 **PWA support** via `next-pwa` (offline-first)
+- 💨 **Tailwind CSS** for rapid styling
+- 🌙 **Dark mode** with `next-themes`
+- 🔍 **SEO-friendly** out of the box
+- 🧠 Clean architecture ready for scaling
+- 🧹 Integrated Prettier + ESLint for consistency
 
-**Nice to haves**
+---
 
-- [next-themes](https://github.com/pacocoursey/next-themes) or similar for low stress theming
+<h1>👥 Team</h1>
 
-## Gallery
+<h3>Advik Gupta</h3> 
+👨‍💻 Lead Developer <br>
+📧 advikgupta6901@gmail.com <br>
+🌐 <a href="https://www.linkedin.com/in/advik-guptaa/">LinkedIn</a>
 
-### Desktop
+---
 
-<img width="1728" alt="Rice Bowl PWA on macOS in dark mode" src="https://github.com/mvllow/next-pwa-template/assets/1474821/889bef1b-af58-4efa-b1f3-3ea021ec9760">
+<h1>📚 Resources</h1>
 
-### Mobile
+This project is based on the excellent <a href="https://looperr-frontend.vercel.app/">next-pwa-template</a> by mvllow.
 
-<img width="360" alt="Rice Bowl PWA on iOS in light mode" src="https://github.com/mvllow/next-pwa-template/assets/1474821/1f0fa36e-23c7-4bcf-aa6e-f447559cae62" />
+Feel free to explore the original repo for additional customisations and advanced features.
 
-<img width="360" alt="Rice Bowl PWA on iOS in dark mode" src="https://github.com/mvllow/next-pwa-template/assets/1474821/2fac61d0-dc29-4022-8b39-003306f80fb4" />
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/your-username/looperr-frontend.git
+cd looperr-frontend
+npm install
+```
+
+Or if using pnpm
+
+```bash
+git clone https://github.com/your-username/looperr-frontend.git
+cd looperr-frontend
+pnpm install
+```
+
+Then start the app
+
+```bash
+npm run dev
+```
