@@ -1,17 +1,23 @@
-// src/app/layout.tsx
+import '@/styles/globals.css'
+import ReduxProvider from '@/store/ReduxProvider'
+import InitApp from './providers/InitApp'
+
 export const metadata = {
 	title: 'Looperr',
-	description: 'Campus runner app',
+	description: 'Campus utility app for student errands',
 }
 
 import { ReactNode } from 'react'
 
-import '@/styles/globals.css'
-
 export default function RootLayout({ children }: { children: ReactNode }) {
 	return (
 		<html lang='en'>
-			<body>{children}</body>
+			<body>
+				<ReduxProvider>
+					<InitApp />
+					{children}
+				</ReduxProvider>
+			</body>
 		</html>
 	)
 }
