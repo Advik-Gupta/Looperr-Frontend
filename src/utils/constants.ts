@@ -1,18 +1,45 @@
 export const campusLocations = [
-	{
-		value: 'balaji',
-		label: 'Balaji',
-	},
-	{
-		value: 'allmart',
-		label: 'AllMart',
-	},
-	{
-		value: 'amazon-pickup',
-		label: 'Amazon Pickup',
-	},
-	{
-		value: 'front-gate-courier',
-		label: 'Front Gate Courier',
-	},
+	// Main Campus Locations
+	{ value: 'main-gate', label: 'Main Gate' },
+	{ value: 'gate-1a', label: 'Gate 1A' },
+	{ value: 'gdn-pharmacy', label: 'GDN Pharmacy' },
+	{ value: 'allmart', label: 'AllMart' },
+	{ value: 'eswari-shop', label: 'Eswari Shop' },
+	{ value: 'gdn-canteen', label: 'GDN Canteen' },
+	{ value: 'dc-food-court', label: 'DC Food Court' },
+	{ value: 'dc-cafe', label: 'DC Cafe' },
+	{ value: 'balaji', label: 'Balaji' },
+	{ value: 'amazon-pickup-sjt', label: 'Amazon Point (SJT)' },
+	{ value: 'mens-hostel-pharmacy', label: 'Mens Hostel Pharmacy' },
+	{ value: 'enzo', label: 'Enzo' },
+
+	// Ladies Hostel Blocks (LH)
+	{ value: 'lh-b-block', label: 'LH B Block' },
+	{ value: 'lh-a-block', label: 'LH A Block' },
+	{ value: 'lh-g-block', label: 'LH G Block' },
+	{ value: 'lh-j-block', label: 'LH J Block' },
+	{ value: 'lh-c-block', label: 'LH C Block' },
+	{ value: 'lh-d-block', label: 'LH D Block' },
+	{ value: 'lh-e-block', label: 'LH E Block' },
+	{ value: 'lh-f-block', label: 'LH F Block' },
+	{ value: 'lh-rjt-block', label: 'LH RJT Block' },
+
+	// Mens Hostel Blocks (MH)
+	{ value: 'mh-j-block', label: 'MH J Block' },
+	{ value: 'mh-h-block', label: 'MH H Block' },
+	{ value: 'mh-a-block', label: 'MH A Block' },
+	{ value: 'mh-c-block', label: 'MH C Block' },
+	{ value: 'mh-d-block', label: 'MH D Block' },
+	{ value: 'mh-e-block', label: 'MH E Block' },
+	{ value: 'mh-g-block', label: 'MH G Block' },
+	{ value: 'mh-f-block', label: 'MH F Block' },
+	{ value: 'mh-b-block', label: 'MH B Block' },
+	{ value: 'mh-k-block', label: 'MH K Block' },
+	{ value: 'mh-l-block', label: 'MH L Block' },
+	{ value: 'mh-m-block', label: 'MH M Block' },
+	{ value: 'mh-n-block', label: 'MH N Block' },
+	{ value: 'mh-p-block', label: 'MH P Block' },
+	{ value: 'mh-q-block', label: 'MH Q Block' },
+	{ value: 'mh-s-block', label: 'MH S Block' },
+	{ value: 'mh-t-block', label: 'MH T Block' },
 ]

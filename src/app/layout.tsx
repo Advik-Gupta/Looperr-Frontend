@@ -5,6 +5,9 @@ import InitApp from './providers/InitApp'
 export const metadata = {
 	title: 'Looperr',
 	description: 'Campus utility app for student errands',
+	icons: {
+		icon: '/favicon.png',
+	},
 }
 
 import { ReactNode } from 'react'

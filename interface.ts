@@ -10,17 +10,43 @@ export interface IRequest {
 	acceptedAt?: string
 	fulfilledAt?: string
 	fromLocation: {
-		lat: number
-		lng: number
-		description: string
+		locationReferenceId: string
+		locationName: string
 	}
 	toLocation: {
-		lat: number
-		lng: number
-		description: string
+		locationReferenceId: string
+		locationName: string
 	}
 	reward?: number
 	isUrgent?: boolean
-	images?: string[]
+	image?: string
+	price?: number
+	bidLimit?: number
 	tags?: string[]
+}
+
+export interface INewRequest {
+	_id?: string
+	title: string
+	description: string
+	type: 'pickup' | 'dropoff' | 'buy' | 'custom'
+	requesterId?: string
+	createdAt?: string
+	fromLocation: {
+		locationReferenceId: string
+		locationName: string
+	}
+	toLocation: {
+		locationReferenceId: string
+		locationName: string
+	}
+	isUrgent?: boolean
+	images: File
+	price?: number
+	bidLimit?: number
+}
+
+export interface IFramework {
+	value: string
+	label: string
 }

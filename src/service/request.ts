@@ -2,6 +2,7 @@ import client from '../utils/axios'
 import { handleAPIError } from '../utils/error'
 
 import { IRequest } from 'interface'
+import { INewRequest } from 'interface'
 
 export async function FetchRequests() {
 	try {
@@ -12,11 +13,9 @@ export async function FetchRequests() {
 	}
 }
 
-export async function CreateRequest(name: string) {
+export async function CreateRequest(request: INewRequest) {
 	try {
-		const res = await client.post('/api/requests', {
-			name,
-		})
+		const res = await client.post('/api/requests', request)
 		return res.data
 	} catch (e) {
 		throw handleAPIError(e)

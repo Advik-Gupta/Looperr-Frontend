@@ -19,9 +19,15 @@ import {
 	PopoverTrigger,
 } from '@/components/ui/popover'
 
-import { campusLocations } from '@/utils/constants'
+import { IFramework } from 'interface'
 
-export function Combobox() {
+export function Combobox({
+	framework,
+	onChange,
+}: {
+	framework: IFramework[]
+	onChange: (value: string) => void
+}) {
 	const [open, setOpen] = React.useState(false)
 	const [value, setValue] = React.useState('')
 
@@ -35,8 +41,7 @@ export function Combobox() {
 					className='w-[200px] justify-between'
 				>
 					{value
-						? campusLocations.find((location) => location.value === value)
-								?.label
+						? framework.find((item) => item.value === value)?.label
 						: 'Select location...'}
 					<ChevronsUpDown className='opacity-50' />
 				</Button>
@@ -47,20 +52,21 @@ export function Combobox() {
 					<CommandList>
 						<CommandEmpty>No location found.</CommandEmpty>
 						<CommandGroup>
-							{campusLocations.map((location) => (
+							{framework.map((item) => (
 								<CommandItem
-									key={location.value}
-									value={location.value}
+									key={item.value}
+									value={item.value}
 									onSelect={(currentValue) => {
 										setValue(currentValue === value ? '' : currentValue)
 										setOpen(false)
+										onChange(currentValue)
 									}}
 								>
-									{location.label}
+									{item.label}
 									<Check
 										className={cn(
 											'ml-auto',
-											value === location.value ? 'opacity-100' : 'opacity-0',
+											value === item.value ? 'opacity-100' : 'opacity-0',
 										)}
 									/>
 								</CommandItem>

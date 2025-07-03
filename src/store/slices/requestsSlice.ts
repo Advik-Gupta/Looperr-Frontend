@@ -18,7 +18,7 @@ const requestsSlice = createSlice({
 	initialState,
 	reducers: {
 		setRequests: (state, action) => {
-			state.push(action.payload)
+			return action.payload
 		},
 	},
 	extraReducers: (builder) => {
