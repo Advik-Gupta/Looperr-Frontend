@@ -36,6 +36,8 @@ Key focuses include:
 - 📱 Mobile-first, PWA-enabled for installable experience
 - 🌑 Seamless dark mode integration
 
+- Checkout Looperr Backend here - https://github.com/Advik-Gupta/Looperr-Backend
+
 ---
 
 ## 🚀 Features
